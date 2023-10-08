@@ -1,6 +1,6 @@
 variable "instance_name" {
   type = set (string)
-  default = ["web01", "web02", "web03"]
+  default = ["web01", "web02", "web03", "web04"]
 }
 variable "prefix" {
   default = "Terraform-PoC-9-ec2foreach"
